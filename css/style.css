@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(206, 66, 66);
+}
+
+#corpo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#titulo_do_site{
+    width: 25%;
+    height: 657px;
+    background-color: purple;
+}
+#titulo_do_site h3{
+    color: orange;
+    margin-top: 75%;
+    margin-left: 8%;
+}
+#titulo_do_site h2{
+    color: white;
+    margin-left: 8%;
+}
+#titulo_do_site span{
+    color: white;
+    font-size: small;
+    margin-left: 2%;
+
+    margin-top: 20%;
+}
+
+#forms{
+    width:75%;
+    height: 657px;
+    background-color: white;
+}
+
+#formulario_do_site{
+    width: 50%;
+    height: 45%;
+    background-color: red;
+    margin-left: 13%;
+}
+#formulario_do_site a{
+    margin-top:5%;
+    float: right;
+    text-decoration: none;
+}
+#social_media{
+    background-color: darkgreen;
+    margin-left: 13%;
+    height: 10%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#social_media p{
+    text-align: center;
+}
+#social_media i{
+    background-color: darkred;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+    
+    display: inline-block;
+    text-align: center;
+    top: 90px;
+    
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly; */
+}
