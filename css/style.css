@@ -2,6 +2,7 @@
 
 body{
     background-color: rgb(206, 66, 66);
+    font-family: 'Cairo', sans-serif;
 }
 
 #corpo{
@@ -9,26 +10,29 @@ body{
     justify-content: center;
     flex-direction: row;
 }
+#corpo span{
+    color: rgb(175,150,189);
+}
 #titulo_do_site{
     width: 25%;
     height: 657px;
-    background-color: purple;
+    background-color: rgb(95,56,147);
 }
 #titulo_do_site h3{
-    color: orange;
+    color: rgb(255, 173,1);
     margin-top: 75%;
     margin-left: 8%;
 }
 #titulo_do_site h2{
     color: white;
     margin-left: 8%;
+    margin-bottom: 285px;
 }
-#titulo_do_site span{
+#titulo_do_site #span{
     color: white;
     font-size: small;
-    margin-left: 2%;
-
-    margin-top: 20%;
+    margin-left: 10px;
+    margin-top: 100px;
 }
 
 #forms{
@@ -38,43 +42,46 @@ body{
 }
 
 #formulario_do_site{
-    width: 50%;
-    height: 45%;
-    background-color: red;
-    margin-left: 13%;
+    width: 40%;
+    height: 42%;
+    margin-left: 15%;
 }
 #formulario_do_site a{
     margin-top:5%;
     float: right;
     text-decoration: none;
+    font-size: small;
 }
+
+#social_media_title{
+    width: 40%;
+    margin-left: 15%;
+    text-align: center;
+}
+#social_media_title span{
+    color: black;
+}
+
 #social_media{
-    background-color: darkgreen;
-    margin-left: 13%;
-    height: 10%;
-    width: 50%;
+    margin-left: 15%;
+    height: 8%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
 }
-#social_media p{
-    text-align: center;
-}
+
 #social_media i{
-    background-color: darkred;
-    width: 30px;
-    height: 30px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
-    
-    
-    display: inline-block;
-    text-align: center;
-    top: 90px;
-    
-    
-    /* display: flex;
+    color: black;
+}
+#social_media .fa{
+    background-color: rgb(236, 236, 236);
+    display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly; */
+    margin-right: 5px;
+    margin-left: 5px;
 }
